@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+:root{
+  --bs-bg-color : linear-gradient(180.86deg, #956CF8 -70.32%, #FFFFFF 99.26%);
+  --bs-btn-color: #7848F4;
+
+}
+
+// h1{
+//   font-weight: 700;
+//   font-size: 42px;
+//   line-height: 46.2px;
+//   background: linear-gradient(90deg, #7367F0 25.19%, #EDAEF8 89.31%);
+//   -webkit-background-clip: text;
+//   color: transparent;
+//   font-family: Montserrat;
+
+// }
+
+.hero-btn button{
+  background-color: #7848F4 ;
+  color: #FFFFFF;
+  border-radius: 5px;
+  width: 150px;
+}
+.hero-head{
+font-family: Montserrat;
+font-size: 70px;
+font-weight: 900;
+line-height: 80px;
+letter-spacing: -0.01em;
+background-color: #222223 !important; 
+-webkit-background-clip: text !important;
+color: transparent;
+
+}
+.image1{
+  position: relative;
+  // box-shadow: 0px 4px 25px 18px #00000040;
+}
+.image2{
+  position:absolute;
+  rotate: -10deg;
+  margin-top: 30px;
+  margin-left: -65%;
+  height: 55%;
+}
+.image3{
+  position:absolute;
+  rotate: 5deg;
+  margin-top: 10%;
+  margin-left: -19%;
+  height: 55%;
+}
+.hero-pera{
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 500;
+line-height: 53px;
+letter-spacing: 0.01em;
+color: #111111;
+}
+
+//  hero body start
+
+.hero-body-head{
+  font-family: Bai Jamjuree;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: left;
+  color: #222223;
+}
+.hero-body-sub-head{
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0.01em;
+
+}
+.hero-body-pera{
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #5F5F64;
+  
+}
+.hero-section{
+  background:var(--bs-bg-color);
+  margin-bottom: 7%;
+}
+// navbar start
+
+.navbar-section{
+font-family: Roboto;
+font-size: 25px;
+font-weight: 600;
+line-height: 64px;
+letter-spacing: -1px;
+text-align: center;
+min-width: fit-content;
+margin-top: -2px;
+
+}
+.nav-body-section{
+  box-shadow: 0px 0px 25px 1px #DFD6FD;
+  border-radius: 20px;
+  height: 85px;
+}
